@@ -1,0 +1,34 @@
+#include<stdio.h>
+void main()
+{
+int arr[20];
+int i,n,s;
+
+printf("enter the no of element");
+scanf("%d",&n);
+
+printf("enter the arr element\n");
+
+for(i=0;i<n;i++)
+{
+  scanf("%d",&arr[i]);
+}
+
+printf("enter the serching element\n");
+scanf("%d",&s);
+
+for(i=0;i<n;i++)
+{
+
+      if(arr[i]==s)
+      {
+      printf("%d present element is %d\n ",i+1,s);
+      break;
+      }
+      if(n==s)
+      printf("%d not present element%d",s);
+}
+
+
+
+}
